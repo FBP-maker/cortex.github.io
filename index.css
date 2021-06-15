@@ -1,0 +1,18 @@
+
+body {
+       background-color: #000000;
+       margin-left: 20%;
+       margin-right: 20%;
+       padding: 10px 10px 10px 10px;
+       font-family: sans-serif;
+}
+
+h1, h2, p {
+        color: #00a000;
+ }
+
+ h1 {
+        border-bottom: 1px solid #00a000;
+ }
+
+/*configurar tamanho das imagens e uma borda*/
