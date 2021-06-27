@@ -5,6 +5,7 @@ body {
        margin-right: 20%;
        padding: 10px 10px 10px 10px;
        font-family: sans-serif;
+       text-align: justify;
 }
 
 h1, h2, p {
