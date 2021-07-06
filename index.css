@@ -1,19 +1,32 @@
+ @font-face {
+	font-family: "Roboto";
+	src: url("http://fonts.google.com/specimen/Roboto"),
 
-body {
+}
+
+ body {
        background-color: #000000;
        margin-left: 20%;
        margin-right: 20%;
        padding: 10px 10px 10px 10px;
-       font-family: sans-serif;
-       text-align: justify;
+       font-family: Roboto, sans-serif;
+			 font-size: small;
+			 color: #00a000;
 }
 
-h1, h2, p {
-        color: #00a000;
+ h1.cabeçalho {
+ 			  border-bottom: 1px solid #00a000;
  }
 
  h1 {
-        border-bottom: 1px solid #00a000;
+        font-size:       220%;
  }
 
+ h2 {
+        font-size:       130%;
+				font-weight:     normal;				
+ }
+ p {
+ 			 text-align: justify;
+			 text-indent: 25px;
 /*configurar tamanho das imagens e uma borda*/
