@@ -1,16 +1,13 @@
- @font-face {
-	font-family: "Roboto";
-	src: url("http://fonts.google.com/specimen/Roboto"),
-
-}
+@charset "UTF-8";
+ 
 
  body {
        background-color: #000000;
        margin-left: 20%;
        margin-right: 20%;
        padding: 10px 10px 10px 10px;
-       font-family: Roboto, sans-serif;
-			 font-size: small;
+       font-family:  sans-serif;
+			 font-size: medium;
 			 color: #00a000;
 }
 
@@ -24,9 +21,27 @@
 
  h2 {
         font-size:       130%;
-				font-weight:     normal;				
+				font-weight:     normal;
  }
+
  p {
  			 text-align: justify;
 			 text-indent: 25px;
-/*configurar tamanho das imagens e uma borda*/
+}
+
+table {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.imagens {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width:600px;
+            max-height:430px;
+            width: 600px;
+            height: 430px;
+}
+
+/*configurar uma borda nas imagens*/

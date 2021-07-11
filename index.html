@@ -2,13 +2,16 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name"description" content="Site, Blog sobre GNU/Linux">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens_exgent/tux.png">
     <title>Cortex</title>
     <link type="text/css" rel="stylesheet" href="index.css">
   </head>
   <body>
 
-    <!--fazer configurar alt com descrições das imagens-->
-    <p><img src="imagens_exgent/tux.png" width="112" height="160" alt="tux logo"></p>
+    <!--fazer configurar alt e title com descrições das imagens-->
+    <p><img src="imagens_exgent/tux.png" width="112" height="160" alt="tux logo" title="tux"> </p>
 
     <hgroup>
     <h1 class="cabeçalho">Cortex</h1>
@@ -23,173 +26,212 @@
             <ul><li>https://exgent.exton.net/</li></ul>
           </a>
 
-    <p>
+    <h2>
       Vamos a instalação do exGENT 2021 LXQt Live DVD / USB.
-    </p>
-
-    <img src="imagens_exgent/imagem1.png" width="552" height="400">
+    </h2>
 
     <p>
       1-Na tela de boot vemos algumas opções, como o que nos interessa nesse tutorial é a instalação do sistema, é só aperta Enter e vamos para a próxima tela.
     </p>
 
-    <img src="imagens_exgent/imagem2.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem1.png" alt="tela de inicialização" title="tela de inicialização">
 
     <p>
       2-Nesta segunda tela, depois de carregado o sistema no seu modo live vamos logar como super usuário escrevendo “root” no Username, tecle Enter, no Password a senha é “exGENT21$”.
     </p>
 
-    <img src="imagens_exgent/imagem3.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem2.png" alt="tela de login" title="tela de login">
 
     <p>
       3- A partir daqui você já pode ir analisando o sistema testar suas funcionalidades. Como essa não é nossa intenção no momento voltemos a instalação, clicando no ícone install system damos início ao processo. (destacar ícone de instalação na imagem3)
     </p>
 
-    <img src="imagens_exgent/imagem4.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem3.png" alt="tela do sistema" title="tela do sistema">
 
     <p>
       4- Iniciando o processo de instalação vamos trocar o idioma para português (Brasil).
     </p>
 
-    <img src="imagens_exgent/imagem5.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem4.png" alt="tela de instalação" title="tela de instalação">
 
     <p>
       5- Com o idioma português (Brasil) selecionado clicamos em próximo para prosseguimos a instalação.
     </p>
 
-    <img src="imagens_exgent/imagem6.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem5.png" alt="tela de instalação" title="tela de instalação">
 
     <p>
-      6- Agora devemos trocar a localidade, mantemos América em região e no campo Área vamos substituir New York por São Paulo, clicamos em próximo, como indicado na imagem seguinte.
+      6- Agora devemos trocar a localidade:
     </p>
 
-    <img src="imagens_exgent/imagem7.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem6.png" alt="tela escolha de localização" title="tela escolha de localização">
+
     <p>
+     Mantemos América em região e no campo Área vamos substituir New York por São Paulo, clicamos em próximo, como indicado na imagem seguinte.
     </p>
 
-    <img src="imagens_exgent/imagem8.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem7.png" alt="tela escolha de localização" title="tela escolha de localização">
 
     <p>
       7- Nesse pondo da instalação vamos escolher o teclado que vamos usar, como recomendação, sugiro usar Portuguese (Brasil) e Default. Caso queria pode testar o teclado, escreva no campo indicado e teste as opções.
     </p>
 
-    <img src="imagens_exgent/imagem9.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem8.png" alt="tela escolha de teclado" title="tela escolha de teclado">
 
     <p>
       8- Chegou o ponto mais importante da nossa instalação a partir desse momento devemos escolher o disco e definir as partições de instalação. Para a instalação do sistema temos duas opções: I. Apagar disco inteiro (como o próprio nome diz essa opção exclui os dados disco de armazenamento criando as partições para instalação de forma automática); II. Particionamento manual.Utilizaremos a opção Particionamento manual, pois ela possibilita particionarmos o disco de acordo com nossa necessidade.
     </p>
 
-    <img src="imagens_exgent/imagem10.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem9.png" alt="Particionamento" title="Particionamento">
 
     <p>
       9- Agora podemos ver que existe um “Espaço não particionado...”, vamos clicar em “Nova tabela de partições”, a baixo note que a um campo “instalar gerenciador de inicialização em: …” usaremos Master Boot Record (MBR) para esta instalação. Feito isso vai liberar a opção próximo, clicamos e damos prosseguimento a instalação.
     </p>
 
-    <img src="imagens_exgent/imagem11.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem10.png" alt="Particionamento" title="Particionamento">
 
     <p>
       10- Como vamos utilizar MBR para essa instalação é só clicar em ok.
     </p>
 
-    <img src="imagens_exgent/imagem12.png" width="492" height="420">
-
+    <img class="imagens" src="imagens_exgent/imagem11.png" alt="Particionamento" title="Particionamento">
+<!--Mudar  para gpt formato de Particionamento-->
     <p>
       11- Podemos notar agora que onde aparecia “Espaço não particionado…” está indicando Espaço livre de 30,4 GiB, e logo a baixo temos:
-Nome
-Sistema de arquivos
-Ponto de montagem
-Tamanho
-Espaço livre
-desconhecido
-
-30,4 GiB
-Clicado no Espaço livre da tabela libera a opção criar, clicamos nela e criaremos nossa primeira partição.
+    </p>
+    <p>
+    Clicado no "Espaço livre" da tabela de particionamento libera a opção criar, clicamos nela e criaremos nossa primeira partição.
     </p>
 
-    <img src="imagens_exgent/imagem13.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem12.png" alt="Particionamento" title="Particionamento">
+<!--Fazer tabela de Particionamento-->
+    <p>
+    <table border="1">
+        <tr>
+          <td>Nome</td>
+          <td>Sistema de arquivos</td>
+          <td>Ponto de montagem</td>
+          <td>Tamanho</td>
+        </tr>
+        <tr>
+          <td>Espaço livre</td>
+          <td>desconhecido</td>
+          <td></td>
+          <td>30,4 GiB</td>
+        </tr>
+      </table>
+    </p>
+
+    <img class="imagens" src="imagens_exgent/imagem13.png" alt="criar uma partição" title="criar uma partição">
 
     <p>
       12- Essas e nossa janela para configurarmos a partição vamos ver as configurações na próxima imagem.
     </p>
 
-    <img src="imagens_exgent/imagem14.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem14.png" alt="criar uma partição" title="criar uma partição">
 
     <p>
-      13- Nossa primeira partição tera Tamanho de 10000 MiB onde ficaram os diretórios e arquivos do nosso SO, será do Tipo da partição “Primária”  o Sistema de Arquivos escolhido será o ext4 e em  “Ponto de Montagem”,  escolheremos a opção “ / ” e clicamos “ok”, pronto partição criada.
+      13- Nossa primeira partição terá Tamanho de 10000 MiB é onde ficará os diretórios e arquivos do nosso SO, será uma partição tipo “Primária”, o Sistema de Arquivos escolhido será o ext4 e em  “Ponto de Montagem”,  escolheremos a opção “ / ” e clicamos “ok”; pronto partição criada.
     </p>
 
-    <img src="imagens_exgent/imagem15.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem15.png" alt="Particionamento" title="Particionamento">
 
     <p>
       14- Note que agora existe uma Nova partição em nosso disco, confira as mudanças conforme de mostrado na tabela abaixo:
-
-Nome
-Sistema de arquivos
-Ponto de montagem
-Tamanho
-Nova partição
-ext4
-/
-9,8 GiB
-Espaço livre
-desconhecido
-
-20,6 GiB
-
+    </p>
+    <table border="1px">
+      <tr>
+        <td>Nome</td>
+        <td>Sistema de arquivos</td>
+        <td>Ponto de montagem</td>
+        <td>Tamanho</td>
+      </tr>
+      <tr>
+        <td>Nova partição</td>
+        <td>ext4</td>
+        <td>/</td>
+        <td>9,8 GiB</td>
+      </tr>
+      <tr>
+        <td>Espaço livre</td>
+        <td>desconhecido</td>
+        <td></td>
+        <td>20,6 GiB</td>
+      </tr>
+    </table>
+    <p>
 Agora vamos criar a partição onde irão ficar os diretórios e arquivos de usuário, clicando no Espaço livre que agora tem 20,6 GiB em seguida clicamos em criar.
     </p>
 
-    <img src="imagens_exgent/imagem16.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem16.png" alt="criar uma partição" title="criar uma partição">
 
     <p>
-      15- Como vamos utilizar todo Espaço livre nessa partição, não vamos alterar o tamanho de 21093 MiB mantemos também o Tipo da partição,  “Primária” e Sistema de Arquivos “ext4”, em Ponto de Montagem escolheremo a opção “/home”, observe figura a baixo.
+      15- Como vamos utilizar todo Espaço livre nessa partição, não vamos alterar o tamanho de 21093 MiB mantemos também o Tipo da partição,  “Primária” e Sistema de Arquivos “ext4”, em Ponto de Montagem escolheremos a opção “/home”, observe figura a baixo.
     </p>
 
-    <img src="imagens_exgent/imagem17.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem17.png" alt="criar uma partição" title="criar uma partição">
 
     <p>
       16- Clicamos ok e partição criada.
     </p>
 
-    <img src="imagens_exgent/imagem18.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem18.png" alt="Particionamento" title="Particionamento">
 
     <p>
-      17- Podemos ver acima a configuração das partições criadas, uma partição de 9,8 GiB onde estarão os arquivos e diretórios do SO e uma partição de 20,6 GiB local dos diretórios e arquivos dos usuários do sistema.
+      17- Podemos ver acima a configuração das partições criadas, uma partição de 9,8 GiB onde estarão os arquivos e diretórios do SO e uma partição de 20,6 GiB local dos diretórios e arquivos dos usuários do sistema:
     </p>
+      <table border="1px">
+        <tr>
+          <td>Nome</td>
+          <td>Sistema de arquivos</td>
+          <td>Ponto de montagem</td>
+          <td>Tamanho</td>
+        </tr>
+        <tr>
+          <td>Nova partição</td>
+          <td>ext4</td>
+          <td>/</td>
+          <td>9,8 GiB</td>
+        </tr>
+        <tr>
+          <td>Nova partição</td>
+          <td>ext4</td>
+          <td>/home</td>
+          <td>20,6 GiB</td>
+        </tr>
+      </table>
 
-    <img src="imagens_exgent/imagem19.png" width="492" height="420">
+      <p></p>
+
+      <img class="imagens" src="imagens_exgent/imagem19.png" alt="tela de AVISO" title="tela de AVISO">
 
     <p>
       18- Como vamos fazer uma instalação do tipo MBR é só clicar ok e passamos para próximo passo.
     </p>
 
-    <p>
-      18- Como vamos fazer uma instalação do tipo MBR é só clicar ok e passamos para próximo passo.
-    </p>
+    <img class="imagens" src="imagens_exgent/imagem20.png" alt="criando usuário e senha" title="criando usuário e senha">
 
-    <img src="imagens_exgent/imagem20.png" width="492" height="420">
-    <p>
-    </p>
-    <img src="imagens_exgent/imagem21.png" width="492" height="420">
+    <p></p>
+
+    <img class="imagens" src="imagens_exgent/imagem21.png" alt="criando usuário e senha" title="criando usuário e senha">
 
     <p>
       19- Nessa parte da instalação é só escolher um nome e uma senha e clicar próximo.
     </p>
 
-    <img src="imagens_exgent/imagem22.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem22.png" alt="resumo configuração da instalação" title="resumo configuração da instalação">
 
     <p>
       20- Nesta tela podemos revisar todas configurações realizadas durante o processo de instalação, podemos também fazer correções caso percebermos algum erro, voltando passos e reconfigurando, como está tudo ok clicamos em “instalar”.
     </p>
 
-    <img src="imagens_exgent/imagem23.png" width="492" height="420">
-    <p>
-    </p>
-    <img src="imagens_exgent/imagem24.png" width="492" height="420">
+    <img class="imagens" src="imagens_exgent/imagem23.png" alt="instalando o sistema" title="instalando o sistema">
 
     <p>
       21- Marcamos Reiniciar agora e Concluído, assim reiniciamos o pc para usar o sistema agora instalado.
     </p>
+
+    <img class="imagens" src="imagens_exgent/imagem24.png" alt="concluir instalação" title="concluir instalação">
 
     <p>
       Em nosso próximo artigo vamos realizar ajustes de pós-intalação e fazermos algumas análises quanto ao desempenho e recursos utilizados pelo exgent.
